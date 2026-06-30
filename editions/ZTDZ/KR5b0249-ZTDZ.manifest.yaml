@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0249/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0249/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 靈寶玉鑑目錄
+  date: '2015-08-29 00:14:50.821817'
+  source:
+    repository: kanripo
+    path: KR5b0249
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0249_000-ZTDZ.yaml, hash: 'sha256:3d7c53f781a9b364d05f95906ea448a90ceb97fe4f684e0e525863b4b7aaad37'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0249_000-ZTDZ.markers.yaml, hash: 'sha256:479dae99de02638daee41f5e65cdf202eec6a507588e3029a74eabf8fd592cf6'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0249_SJB_000-100129a
+    span:
+    - body
+    - 0
+    - 5838
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:9d9c2e39946973df08c208145c57ef47f36cbb2868b8864e2623591a97e2f5b4

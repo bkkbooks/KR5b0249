@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR5b0249/v1
+canonical_location: https://kanripo.org/bkk/KR5b0249/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 靈寶玉鑑目錄
+  identifiers:
+    alt_id:
+    - DZ0546
+  date: '2015-08-29 00:14:50.821817'
+  source:
+    repository: kanripo
+    path: KR5b0249
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0249_000.yaml, hash: 'sha256:8f29c984b2833a29554ca8a67b902f5f6ac2aa7f73279f523fbc91aeb5595839'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0249_000.markers.yaml, hash: 'sha256:ec7ad5f1d1644f9150d377aa937250b5caac5a9307d3af6826a52f2abe2501ec'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0249_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 5838
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:49d21130b4ddee9522efb519d39e1a91bdfb4f8a80ebb8a40ea6050b7cf6975b
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
